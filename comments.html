@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru" xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Website ">
+    <meta name="keywords" content="Grigorovich,C++,C,HackAss2002,Daredevil2002,Yandex,ITMO,Maps,Portfolio">
+    <meta name="author" content="Vyacheslav Grigorovich's portfolio website">
+    <link rel="icon" href="images/cpp.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/load.js" type="text/javascript"></script>
+    <title>Comments</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="cell main_header">
+            <div class="main_header_section_left">
+                <h1 class="main_header_title">HackAss2002</h1>
+                <nav class="main_header_navbar">
+                    <ul class="ul main_header_navbar_links" id="main_navbar">
+                        <li class="main_header_navbar_links_item" data-key="main_page"><a href="index.html"
+                                class="link main_header_navbar_links_item_link">Main page</a></li>
+                        <li class="main_header_navbar_links_item" data-key="gallery_page"><a href="gallery.html"
+                                class="link main_header_navbar_links_item_link">Gallery</a></li>
+                        <li class="main_header_navbar_links_item" data-key="comments_page"><a href="comments.html"
+                                class="link main_header_navbar_links_item_link">Comments</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main_header_section_right">
+                <!--<a href="" class="link main_header_navbar_login">Login</a>
+                <a href="" class="link main_header_navbar_registration">Registration</a>-->
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <article class="cell comments">
+            <form id="form">
+                <label class="label" for="name">
+                    Your name:
+                    <input class="input" type="text" name="name" id="name" placeholder="Input your name" required>
+                </label>
+                <label class="label" for="comment">
+                    Your comment:
+                    <textarea class="textarea" name="comment" id="comment" rows="10" placeholder="Input your comment"
+                        required></textarea>
+                </label>
+                <input class="input" type="submit" value="Send">
+            </form>
+            <div id="feedback-container" class="feedback-container"></div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="main_footer_image">
+            <img src="images/spider.jpg" alt="Footer image" class="main_footer_image_image">
+        </div>
+        <div class="cell main_footer">
+            <p class="p main_footer_copyright">© 2022 HackAss2002</p>
+            <p class="p main_footer_load" id="load_info"></p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/outline-control.js"></script>
+    <script type="text/javascript" src="js/comments.js"></script>
+</body>
+
+</html>

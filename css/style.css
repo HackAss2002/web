@@ -1,0 +1,220 @@
+@import url(common.css);
+@import url(dark.css);
+/*@import url(light.css) screen and (prefers-color-scheme: light);
+@import url(dark.css) screen and ((prefers-color-scheme: dark) or (prefers-color-scheme: no-preference));*/
+
+.main_body_main_information_title,
+.main_body_contacts_title,
+.main_body_skills_title,
+.main_body_work_experience_title,
+.main_body_education_title,
+.main_body_lifestyle_title,
+.main_body_about_title {
+    margin-bottom: 5px;
+}
+
+.main_body_contacts_body,
+.main_body_skills_body,
+.main_body_work_experience_body,
+.main_body_education_body,
+.main_body_lifestyle_body,
+.main_body_about_body {}
+
+.main_body_main_information_body {
+    width: auto;
+    display: flex;
+}
+
+.main_body_main_information_body_name {
+    margin-top: 0;
+    color: #ff3a3a;
+    text-align: center;
+}
+
+.main_body_main_information_text {
+    word-break: break-all;
+}
+
+.main_body_main_information_pictures {
+    min-width: 300px;
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    top: 0;
+}
+
+.main_body_main_information_image {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 100%;
+    height: auto;
+}
+
+.tbody {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.tr {
+    display: contents;
+    text-align: center;
+}
+
+.td {
+    background: #3a89ff;
+}
+
+.tr:nth-child(even) td {
+    background: rgb(204, 0, 0);
+}
+
+.td {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.comix_link {
+    color: whitesmoke;
+}
+
+.comix_link:hover {
+    color: black;
+}
+
+.comix_image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.gallery {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.caption {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.form,
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    resize: none;
+}
+
+.textarea,
+.input[type="text"] {
+    background: #ffffff;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.input[type="submit"] {
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background: #68717b;
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+    outline: none;
+    border: none;
+}
+
+.comment {
+    background: #9b9b9b;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+
+.comment_name {
+    margin: 0 0 .5rem;
+}
+
+.comment_text {
+    margin: 0;
+}
+
+.feedback-container {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-top: 1px solid #68717b;
+}
+
+.photo_gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.photo__container {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.photo__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.pages_span {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #3a89ff;
+    cursor: pointer;
+}
+
+.pages_span_active {
+    background: #3a89ff;
+}
+
+.error {
+    color: red;
+}

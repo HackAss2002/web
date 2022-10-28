@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    background-color: #202020;
+    border-bottom-color: #363636;
+}
+
+main {
+    background-color: #101010;
+}
+
+footer {
+    background-color: #202020;
+    border-top-color: #363636;
+}
+
+.main_header {
+    color: whitesmoke;
+}

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A0A0A;
+}
+
+header {
+    background-color: #DFDFDF;
+    border-bottom-color: #363636;
+}
+
+main {
+    background-color: #EFEFEF;
+}
+
+footer {
+    background-color: #DFDFDF;
+    border-top-color: #363636;
+}
+
+.main_header {
+    color: #0A0A0A;
+}
